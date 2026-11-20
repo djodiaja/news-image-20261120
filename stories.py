@@ -130,6 +130,46 @@ STORIES = [
     {"tier": 3, "region": "Global", "place": "Gold", "lat": 51.51, "lon": -0.09, "icon": "down",
      "head": "Heads for 9% weekly drop",
      "detail": "Near $3,538/oz, lowest since Sept 2025, as the AI sell-off spreads.", "src": "Reuters"},
+    # v3: carry-overs reported or moved on on 20 Nov, worded as such
+    {"tier": 3, "region": "Middle East", "place": "Bekaa, Lebanon", "lat": 33.85, "lon": 35.90, "icon": "fire",
+     "head": "Israeli strikes reach Bekaa again",
+     "detail": "First raids there in months, about 80 km beyond the buffer zone.", "src": "Haaretz"},
+    {"tier": 3, "region": "Middle East", "place": "Nablus, West Bank", "lat": 32.21, "lon": 35.28, "icon": "people",
+     "head": "Settlers enter Joseph's Tomb under guard",
+     "detail": "Hundreds enter as troops close roads around the site.", "src": "WAFA"},
+    {"tier": 3, "region": "North America", "place": "Washington", "lat": 38.90, "lon": -77.04, "icon": "chip",
+     "head": "White House replaces cyber chief",
+     "detail": "Sean Cairncross out after a run of outages; Kirsten Davies in.", "src": "Washington Post"},
+    {"tier": 3, "region": "North America", "place": "San Francisco", "lat": 37.76, "lon": -122.46, "icon": "flask",
+     "head": "Brain area found that readies words",
+     "detail": "UCSF study in Science: a speech region fires before we speak.", "src": "Interesting Eng."},
+    {"tier": 3, "region": "Latin America", "place": "Brasilia", "lat": -15.79, "lon": -47.88, "icon": "money",
+     "head": "Lula blasts market 'speculation'",
+     "detail": "Real slides after the Senate passes a 60bn-reais fiscal package.", "src": "Reuters"},
+    {"tier": 3, "region": "Asia-Pacific", "place": "Seoul", "lat": 37.57, "lon": 126.98, "icon": "court",
+     "head": "Ex-PM Han's 15-year term overturned",
+     "detail": "Martial-law case sent back to the appeals court.", "src": "Korea Times"},
+    {"tier": 3, "region": "Asia-Pacific", "place": "Tokyo", "lat": 35.68, "lon": 139.69, "icon": "factory",
+     "head": "Japan Tobacco books $8.6bn Russia loss",
+     "detail": "Seven Russian units under Kremlin administration.", "src": "Reuters"},
+    {"tier": 3, "region": "Europe", "place": "Madrid", "lat": 40.42, "lon": -3.70, "icon": "vote",
+     "head": "Sanchez admits 'mistakes' in TV debate",
+     "detail": "Only head-to-head with Feijoo before the 29 Nov snap election.", "src": "AFP"},
+    {"tier": 3, "region": "Global", "place": "FIFA, Zurich", "lat": 47.38, "lon": 8.57, "icon": "ball",
+     "head": "Infantino faces two challengers",
+     "detail": "Diallo and Tashima confirmed for the March 2027 vote.", "src": "Al Jazeera"},
+]
+
+# Times in UTC on Friday 20 Nov (Thu = 19 Nov UTC), each from research.md.
+TIMELINE = [
+    ("23:20 Thu", "Russian barrage on Kyiv begins"),
+    ("00:40", "Missiles and drone enter Polish airspace"),
+    ("02:00-03:00", "Cyclone Akvan makes landfall, Odisha"),
+    ("09:26", "Europe's STOXX 600 down 1.3%"),
+    ("11:25", "M4.4 quake jolts Los Angeles"),
+    ("12:15", "Bitcoin at $61,322"),
+    ("14:30", "Wall St opens: Nasdaq down 1.4%"),
+    ("15:00", "COP31 misses its close; talks go on"),
 ]
 
 KEYFIGS = [

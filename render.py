@@ -8,7 +8,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-from stories import DATE_LINE, KEYFIGS, MARKETS, SOURCES, STORIES
+from stories import DATE_LINE, KEYFIGS, MARKETS, SOURCES, STORIES, TIMELINE
 
 S = 2  # supersampling factor
 W = H = 1024
@@ -319,7 +319,7 @@ def render(out):
         x = 8 + i * (cw + 6)
         d.rectangle(P(x, y, x + cw, y + 150), fill=(255, 255, 255), outline=RULE, width=S)
         d.rectangle(P(x, y, x + 76, y + 150), fill=(244, 236, 226))
-        icon(d, s["icon"], x + 38, y + 62, 26, REGION_COL[s["region"]])
+        icon(d, s["icon"], x + 38, y + 68, 33, REGION_COL[s["region"]])
         d.ellipse(P(x + 6, y + 6, x + 24, y + 24), fill=TIER_COL[1])
         d.text(P(x + 15, y + 15), str(s["n"]), font=F["pin_lead"], fill=(255, 255, 255), anchor="mm")
         d.text(P(x + 38, y + 132), s["region"], font=F["small"], fill=MUTED, anchor="mm")
@@ -329,8 +329,19 @@ def render(out):
         yy = text_block(d, tx, yy + 3, s["detail"], F["lead_d"], cw - 92, 6, (50, 54, 64), 12)
         d.text(P(tx, y + 138), f"Source: {s['src']}", font=F["small"], fill=MUTED)
 
+    # UTC timeline strip
+    ty0 = 276
+    d.rectangle(P(8, ty0, W - 8, ty0 + 32), fill=(236, 240, 247), outline=RULE, width=S)
+    d.text(P(14, ty0 + 9), "FRIDAY, UTC", font=F["sect"], fill=NAVY)
+    step = (W - 16 - 84) / len(TIMELINE)
+    for i, (when, what) in enumerate(TIMELINE):
+        tx = 84 + i * step
+        d.ellipse(P(tx - 3, ty0 + 6, tx + 3, ty0 + 12), fill=(200, 30, 40))
+        d.text(P(tx + 6, ty0 + 3), when, font=F["box_h"], fill=(170, 30, 40))
+        text_block(d, tx, ty0 + 14, what, F["small"], step - 6, 2, INK, 8.5)
+
     # map + region tally
-    my, mw, mh = 278, 560, 186.7
+    my, mw, mh = 314, 560, 186.7
     d.text(P(8, my), "WHERE IT HAPPENED", font=F["sect"], fill=NAVY)
     draw_map(d, 8, my + 14, mw, mh)
     ty = my + 14 + mh + 6
@@ -376,11 +387,17 @@ def render(out):
         c, r = divmod(i, per)
         x = 8 + c * (colw + 10)
         line_h = (box_top - ay - 18) / max(per, 1)
+        dl = 2 if line_h >= 40 else 1
         yy = ay + 15 + r * line_h
         d.ellipse(P(x, yy + 1, x + 13, yy + 14), fill=TIER_COL[3])
         d.text(P(x + 6.5, yy + 7.5), str(s["n"]), font=F["pin"], fill=(255, 255, 255), anchor="mm")
-        text_block(d, x + 17, yy, f"{s['place']}: {s['head']}", F["also_b"], colw - 19, 1, INK, 13)
-        text_block(d, x + 17, yy + 14, s["detail"], F["also"], colw - 19, 2, (60, 64, 74), 12)
+        head = f"{s['place']}: {s['head']}"
+        text_block(d, x + 17, yy, head, F["also_b"], colw - 19, 1, INK, 13)
+        hw = d.textlength(head, font=F["also_b"]) / S
+        src = f"  {s['src']}"
+        if 17 + hw + d.textlength(src, font=F["small"]) / S <= colw - 2:
+            d.text(P(x + 17 + hw, yy + 2.5), src, font=F["small"], fill=(150, 120, 60))
+        text_block(d, x + 17, yy + 14, s["detail"], F["also"], colw - 19, dl, (60, 64, 74), 12)
 
     # date-check box + footer
     d.rectangle(P(8, box_top, W - 8, box_top + 42), fill=(255, 250, 225), outline=(200, 160, 40), width=S)

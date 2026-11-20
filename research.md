@@ -92,3 +92,68 @@ Fri 20 Nov Asian session (Reuters via MarketScreener, URL in id 5): Nikkei -4.1%
 - Senegal (id 36): passenger count disputed (50 vs ~100); toll may rise.
 - Sanon verdict (id 48) sourced only to the Anadolu briefing and an Inquirer headline; no direct wire URL found.
 - Science item (id 51) is from a secondary outlet; journal and date (Science, 19 Nov) stated there but not checked against Science directly.
+
+## Update ~16:00 UTC 20 Nov
+
+Searched ~15:40-16:05 UTC 20 Nov 2026. "time seen" = when the item was read (UTC); outlet timestamps given where stated.
+
+### Outcomes
+
+| morning id | new status | source outlet | URL | time seen |
+|---|---|---|---|---|
+| 7 (COP31) | NO DEAL YET - OVERTIME. Official close 15:00 GMT passed; Bowen: "won't be leaving the rooms of Antalya until we have that consensus", talks through the night, negotiators expect Saturday. Thursday draft still latest: no fossil fuel language, $120bn adaptation target dropped, keeps 35% electricity-share-by-2035 goal. Panama threatens formal objection. Turkey separately claims $26bn+ in side deals (incl. preliminary $15bn China renewables deal) | Deccan Chronicle; Cyprus Mail (Reuters) | https://deccanchronicle.com/world/cop31-talks-run-overtime-as-nations-clash-over-fossil-fuel-future-2006354 ; https://cyprus-mail.com/2026/11/20/turkey-wins-26bn-in-deals-as-cop31-struggles-for-agreement | ~15:45 |
+| 25 (EU-UK summit) | DONE. Burnham, von der Leyen, Costa agree reset deals: agrifood/SPS (fewer border checks and certificates), youth mobility scheme for under-31s, progress on linking emissions trading schemes; joint statement sets timetable for entry into force; UK joins Erasmus+ from 2027; tuition-fee deal to be concluded within 6 months. Defence: no specific new item found. Scheme cap disputed (100k vs 200k) | TVP World (Reuters); The PIE News; Personnel Today | https://tvpworld.com/96585733/uk-eu-launch-reset-with-food-and-youth-mobility-deals ; https://thepienews.com/200k-uk-eu-youth-mobility-places-agreed-as-tuition-fee-decision-delayed/ | ~15:40 |
+| 26 (Hungary veto) | DONE. Hungary dropped its block on 20 Nov morning; Coreper (EU ambassadors) approved screening results for clusters 4 and 5 for Ukraine and Moldova. Formal opening at intergovernmental conferences, possibly December 2026 | European Pravda (Eurointegration); bne IntelliNews | https://www.eurointegration.com.ua/eng/news/2026/11/20/7250427/ ; https://www.intellinews.com/hungary-lifts-block-on-last-eu-accession-clusters-for-ukraine-moldova-486813/ | ~15:40 |
+| 4 (Kyiv bridges) | TOLL UP: Kyiv 7 dead, 17 injured (Klitschko / Patrol Police; Interfax-Ukraine 15:32 local = 13:32 UTC); at least 9 dead across Ukraine (Kyiv Independent). Bridges damaged: Podilsko-Voskresenskyi, Pivdennyi (Southern, hit again after 17 Nov), Darnytskyi. Air Force: 82 of 84 missiles and 380 drones downed. Also 2 killed at Lviv station (new id 56) | Interfax-Ukraine; Kyiv Independent | https://en.interfax.com.ua/news/general/1239968.html ; https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/ | ~15:45 |
+| 5 / 14 / 45 (markets) | Europe: STOXX 600 -1.3% to 630.22 at 09:26 GMT, heading for >5% weekly loss (worst since March); no close found yet. US open mixed: Dow slightly up, Nasdaq -1.4%. Gold extends fall (~$3,538). See Markets (latest) | Yahoo Finance (Reuters); Business Upturn | https://finance.yahoo.com/markets/world-indices/articles/european-shares-head-steepest-weekly-082527441.html ; https://businessupturn.com/usa/money/us-markets/us-stocks-mixed-at-open-as-nasdaq-falls-and-dow-edges-higher/ | ~15:50 |
+| 23 / 27 (Putin, Europe) | Context: Berlin Coalition of the Willing statement (19 Nov; Germany, France, UK, Ukraine) asked Russia for a winter energy truce; Putin rejected it the same day, then the overnight strikes came | Ukrinform | https://www.ukrinform.net/rubric-polytics/4186635-coalition-of-the-willing-leaders-urge-russia-to-agree-to-winter-energy-truce.html | ~15:55 |
+
+### New stories
+
+| id | rank | region | country/place | lat | lon | headline | detail | source outlet | source URL | date evidence |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 52 | LEAD-CANDIDATE | Europe | Poland, Nowy Lipowiec (Lublin region, SE Poland) | 50.60 | 22.70 | Russian missiles and drone violate Polish airspace | 2 missiles (one a Kh-101) + jet drone came down in SE Poland; NATO jets scrambled; Tusk: "intentional provocation" | Irish Times | https://www.irishtimes.com/world/europe/2026/11/20/nato-jets-scrambled-after-russian-missiles-and-drone-hit-poland-during-attacks-on-ukraine/ | 20 Nov, first alerts 01:40 local; URL 2026/11/20 |
+| 53 | LEAD-CANDIDATE | Middle East | Yemen, Hodeidah | 14.80 | 42.95 | Saudi-led coalition strikes Yemen's Hodeidah port | "Special operation" also hits Sanaa, Saada, Taiz; Houthis warn airlines off Saudi airspace, threaten Jeddah | Local10 (AP) / Gulf News | https://www.local10.com/news/world/2026/11/20/saudi-arabia-attacks-yemens-houthis-and-intercepts-more-missiles-and-drones-and-other-mideast-news/ | Fri 20 Nov; URL 2026/11/20 |
+| 54 | SECONDARY | Asia-Pacific | India, Gopalpur (Odisha) | 19.26 | 84.91 | Cyclone Akvan hits Odisha; 300,000+ evacuated | Crossed coast near Gopalpur ~02:00-03:00 UTC as cyclonic storm, 70-80 km/h, gusts 90; no deaths reported | The Watchers / DD News | https://watchers.news/2026/11/20/cyclone-akvan-landfall-gopalpur-november-20-2026-deep-depression/ | Landfall 20 Nov ~07:30-08:30 IST |
+| 55 | SECONDARY | Middle East | Iraq, Jurf al-Sakhar (Babil) | 32.85 | 44.10 | Iraqi troops enter Kataib Hezbollah stronghold | Tanks, police deploy under compromise deal; PM al-Zaidi cites oil smuggling; group says it is not leaving | The National | https://www.thenationalnews.com/news/mena/2026/11/20/iraqi-security-forces-move-into-iran-backed-militia-stronghold-of-jurf-al-sakhar/ | Fri 20 Nov; URL 2026/11/20 |
+| 56 | SECONDARY | Europe | Ukraine, Lviv (Sknyliv station) | 49.82 | 23.98 | Russian strike on Lviv rail station kills 2 | Ticket terminal hit, ~10 hurt; emergency power cuts in Lviv region; same overnight barrage as Kyiv | Ukrinform | https://www.ukrinform.net/rubric-ato/4186678-two-killed-four-injured-in-russian-attack-on-railway-station-in-lviv.html | Morning 20 Nov |
+| 57 | SECONDARY | Europe | Italy, Rome | 41.89 | 12.50 | Italy hit by general strike over Meloni budget | CGIL nationwide strike, all sectors; rallies in ~100 squares; second national stoppage in weeks | Global Banking & Finance (Reuters) | https://www.globalbankingandfinance.com/thousands-protest-across-italy-strike-over-wages-public/ | Strike day Fri 20 Nov |
+| 58 | SECONDARY | North America | USA, Commerce / Los Angeles | 34.00 | -118.16 | M4.4 quake jolts Los Angeles before dawn | USGS: 03:25 PT near Commerce, ~10 mi deep; felt to Lancaster and Poway; no damage reported | ABC News | https://abcnews.com/US/magnitude-44-earthquake-hits-downtown-los-angeles/story?id=138315998 | 20 Nov 03:25 PT (11:25 UTC) |
+| 59 | also | Europe | USA / Ukraine (envoy talks) | 38.90 | -77.04 | WSJ: Kushner floated NATO for Ukraine for Donbas | Envoys raised membership if Kyiv cedes territory; Kyiv refuses to cede, Moscow rejects any NATO role | Kyiv Post | https://www.kyivpost.com/post/90709 | WSJ report 19-20 Nov; widely carried 20 Nov |
+| 60 | also | Europe | Russia, Tatarstan (Druzhba pumping station) | 55.00 | 51.00 | Ukraine confirms strike on Druzhba oil station | General Staff: 19 Nov hit damaged 3 large oil storage tanks in Tatarstan | Kyiv Independent | https://kyivindependent.com/ukraine-strikes-key-druzhba-oil-pipeline-station-in-russias-tatarstan-general-staff-confirms | Strike 19 Nov; confirmed 20 Nov |
+| 61 | also | Africa | Nigeria, Abeokuta (Ogun) | 7.16 | 3.35 | Football great Odegbami attacked with machetes | Ex-captain, 74, hurt by ~3 intruders at home ~02:30; police investigating; discharged from hospital | Daily Trust | https://dailytrust.com/breaking-armed-men-attack-football-legend-segun-odegbami-inside-abeokuta-residence/ | Fri 20 Nov ~02:30 local |
+| 62 | also | Latin America | Peru / Japan, Tokyo | 35.68 | 139.69 | Peru's President Fujimori meets Japan's emperor | Received by Naruhito, then PM Takaichi; seeks mining, critical-minerals investment; no deals signed | Rio Times | https://www.riotimesonline.com/peru-fujimori-meets-emperor-naruhito-tokyo-2026 | Fri 20 Nov |
+| 63 | also | Middle East | Israel, Jerusalem | 31.78 | 35.22 | Eisenkot threatens "emergency" minority government | If broad coalition fails; mandate ends next month; Netanyahu presses for unity government | Times of Israel | https://www.timesofisrael.com/liveblog-november-20-2026/ | Liveblog 20 Nov (remark may be 19 Nov) |
+
+Region counts (new): Europe 5 (52,56,57,59,60), Middle East 3 (53,55,63), Asia-Pacific 1 (54), North America 1 (58), Africa 1 (61), Latin America 1 (62). Total 12.
+
+### Markets (latest)
+
+Europe: STOXX 600 -1.3% to 630.22 at 09:26 GMT, 6-week low, on track for >5% weekly loss; DAX -1.3% (Reuters via Yahoo Finance); official close not found. US open ~14:35 UTC (Business Upturn): Dow +0.15% to 49,171.43, S&P 500 -0.50% to 7,140.20, Nasdaq -1.44% to 23,536.28; Nvidia ~-3% after open (StockTitan); US 10-yr yield 4.992% at 10:59 UTC (stockinvest.us); US close not available yet. Brent -1.79% to $90.33, WTI -1.95% to $81.59 at 10:32 GMT (Reuters via 5paisa). Gold ~$3,538/oz after 14-month low near $3,532 (investorideas daily report; Trading Economics shows $3,575.62, -1.39%; figures differ by time). Bitcoin $61,321.59 at 12:15 UTC (7:15 ET), -3.8% on day, -24.9% on month (Fortune: https://fortune.com/article/price-of-bitcoin-11-20-2026/).
+
+### Key figures (new)
+
+| value | label | story id |
+|---|---|---|
+| 300,000+ | Evacuated ahead of Cyclone Akvan (chief secretary: 370,000) | 54 |
+| 2 + 1 | Russian missiles + drone in Polish airspace | 52 |
+| 7 | Dead in Kyiv bridge strikes (3 this morning) | 4 |
+| $26bn+ | Side deals Turkey claims as COP31 host | 7 |
+| $61,322 | Bitcoin, down ~25% in a month | markets |
+| -5%+ | STOXX 600 this week (worst since March) | markets |
+
+### Caveats
+
+- COP31: no final outcome as of ~16:00 UTC; do NOT claim a deal or a failure. Morning Euronews line "COP31 ends with several climate wins" was wrong or premature.
+- EU-UK youth mobility cap: PIE News says 200k places, Personnel Today says 100,000; unresolved, avoid a number. No defence item confirmed from the summit.
+- Akvan: landfall 02:00-03:00 UTC per IMD as cited by The Watchers; DD News/Outlook give the process as ~08:00-11:20 IST (02:30-05:50 UTC). Safe wording: "morning of 20 Nov". Strength at landfall = cyclonic storm (weakened from severe). Free Press Journal wrongly says Saturday. No deaths reported so far.
+- Kyiv toll changed through the day (3 -> 6 -> 7 in Kyiv; 8-9 nationwide). Missile counts differ: Air Force 84 missiles; Euromaidan Press "over 110 missiles"; drones ~380-404.
+- Poland (52): coordinates approximate (exact Nowy Lipowiec location not checked); village spellings differ by outlet.
+- Hodeidah (53): Houthi claim that a Saudi strike on a civilian boat killed 19 is unverified; left out.
+- Jurf al-Sakhar (55): accounts disagree on whether Kataib Hezbollah actually withdraws.
+- Italy strike (57): source is a Reuters reprint on an aggregator; no turnout figure.
+- Tatarstan (60): exact station not named in what I saw; coordinates are a regional placeholder.
+- Eisenkot (63): the "emergency government" remark also appears on the 19 Nov liveblog; may be a 19 Nov statement.
+- Kushner (59): WSJ original paywalled; based on Kyiv Post and others relaying it.
+- Search summaries, not full article reads, were used for most items; headline facts were cross-checked across 2+ outlets where possible.
+- Not found / dropped: no bigger sourced 20 Nov Africa or Latin America story than those listed; Colombia Planadas truck bomb is 1 Nov (old); Guayaquil quake is 19 Nov (M5.1, no damage); Chase cyberattack is 19 Nov; Trump noon ET press conference had not happened at search time; Brazil markets closed 20 Nov (Black Consciousness Day).

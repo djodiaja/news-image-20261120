@@ -288,6 +288,7 @@ def tag(d, x, y, s):
 def render(out):
     img = Image.new("RGB", (W * S, H * S), PAPER)
     d = ImageDraw.Draw(img)
+    STORIES.sort(key=lambda s: s["tier"])  # stable: numbers run leads, cards, list
     for i, s in enumerate(STORIES, 1):
         s["n"] = i
     leads = [s for s in STORIES if s["tier"] == 1]
